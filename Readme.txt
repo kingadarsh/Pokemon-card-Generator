@@ -6,7 +6,7 @@
 
 ---
 
-```python
+
 """
 Your task is to design and implement an application that display Pokémon Cards.
 
