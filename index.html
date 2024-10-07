@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div style="display:flex; justify-content: center;border:solid 1px;backgroound-color:black">
+        <h1 class="multicolor-heading">Pokémon Card Generator</h1>
+    </div>
+   
+    <div id="PokemonContainer"></div>
+
+    <div style="display: flex;justify-content: center;margin-top: 400px;">
+        <form id="form">
+            <label for="Pokemons"><b>Select a Pokemon :</b> </label>
+            <input type="number" id="PokemonNumber" placeholder="Enter pokemon number" required>
+    
+            <select id="Category" name="Pokemon Type">
+                <option value="Selecttype">Select One From Below</option>
+                <option value="Fire">Fire</option>
+                <option value="Water">Water</option>
+                <option value="Air">Air</option>
+            </select>
+
+            <button type="submit">Get Pokemon</button>
+        </form>
+    </div>
+
+   
+
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
